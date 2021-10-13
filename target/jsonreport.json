@@ -1,0 +1,1450 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1720905100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4907963100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3015378100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6696566500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3021577700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:05:15.159Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8516166000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Automation of Progress title functionality",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;automation-of-progress-title-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 875750900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3020922800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Progress section",
+            "match": {
+              "location": "defination.user_is_on_Progress_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122136400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to see course title",
+            "match": {
+              "location": "defination.user_should_be_able_to_see_course_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 492823700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be able to see Course, Time spent in the course,\tProgress,\tBest score in learning path,\tBest score not in learning path\t,Latest login,\tDetails",
+            "match": {
+              "location": "defination.user_should_be_able_to_see_Course_Time_spent_in_the_course_Progress_Best_score_in_learning_path_Best_score_not_in_learning_path_Latest_login_Details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1582140500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4184612800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3014131900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6535976300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3027652200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:05:47.556Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7133341400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Automation on details of My courses",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;automation-on-details-of-my-courses",
+        "after": [
+          {
+            "result": {
+              "duration": 929707000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3018883300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on Progress section",
+            "match": {
+              "location": "defination.user_is_on_Progress_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 601902500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is able to see all the details under each title of My Courses",
+            "match": {
+              "location": "defination.user_is_able_to_see_all_the_details_under_each_title_of_My_Courses()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1528265100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5141975800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3011358900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6588140400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3023296800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:06:17.589Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7265363100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Automated blue colour arrow",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;automated-blue-colour-arrow",
+        "after": [
+          {
+            "result": {
+              "duration": 913813000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3014790900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on Progress section",
+            "match": {
+              "location": "defination.user_is_on_Progress_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5299095800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on the arrow button",
+            "match": {
+              "location": "defination.user_clicks_on_the_arrow_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122121100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user is able to see details of the courses below",
+            "match": {
+              "location": "defination.user_is_able_to_see_details_of_the_courses_below()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@arrow"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1607412800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4552311100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3016779700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6332780300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3013397600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:06:53.501Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7053923600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Automated course name",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;automated-course-name",
+        "after": [
+          {
+            "result": {
+              "duration": 889551400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3012251000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is on Progress section",
+            "match": {
+              "location": "defination.user_is_on_Progress_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6720612200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should be able to see Tests, Attempts,\tBest attempt,Ranking,\tBest result in course, Statistics",
+            "match": {
+              "location": "defination.user_should_be_able_to_see_Tests_Attempts_Best_attempt_Ranking_Best_result_in_course_Statistics()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@title"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1618236000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8998071900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3017088900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6463626100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3027623800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:07:29.702Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7039513200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Automation on testname",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;automation-on-testname",
+        "after": [
+          {
+            "result": {
+              "duration": 872000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3016973300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is on Progress section",
+            "match": {
+              "location": "defination.user_is_on_Progress_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5999481800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is able to see test name of subscribed course",
+            "match": {
+              "location": "defination.user_is_able_to_see_test_name_of_subscribed_course()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8828379000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is also able to click on test name",
+            "match": {
+              "location": "defination.user_is_also_able_to_see_Attempts()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1322437000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4392107300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3025043600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6063730700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3021857000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:08:18.587Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6849928200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Automation on Timeline functionality",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;automation-on-timeline-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 872159300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3012340900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User is on Progress section",
+            "match": {
+              "location": "defination.user_is_on_Progress_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3107064300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user is able to see Timeline heading",
+            "match": {
+              "location": "defination.user_is_able_to_see_Timeline_heading()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3102675500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user is able to see login-time of subscribed courses",
+            "match": {
+              "location": "defination.user_is_able_to_see_login_time_of_subscribed_courses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3279344200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user clicks on time, user is able to see message under it",
+            "match": {
+              "location": "defination.user_links_on_time_user_is_able_to_see_message_under_it()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3101256200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User should be able to see only one login time",
+            "match": {
+              "location": "defination.user_should_be_able_to_see_only_one_login_time()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@timeline"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1648772000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4713676000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3018432100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6234570400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3016544800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:08:59.740Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6920826100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Verify logo",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;verify-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 769841400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3011983000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User is on Progress section",
+            "match": {
+              "location": "defination.user_is_on_Progress_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3101303000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user is able to see logo of blue color",
+            "match": {
+              "location": "defination.user_is_able_to_see_logo_of_blue_color()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logo"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2007813300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4950009000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3011209700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5556757000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3017389700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:09:32.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7121234300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Automation on arrow button",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;automation-on-arrow-button",
+        "after": [
+          {
+            "result": {
+              "duration": 854594100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3024469800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User is on Progress section",
+            "match": {
+              "location": "defination.user_is_on_Progress_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5349514500,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user is able to see arrow button beside the logo",
+            "match": {
+              "location": "defination.user_is_able_to_see_arrow_button_beside_the_logo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@button"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automated login and navigate to Progress",
+        "description": "    Given: User is on home page",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1477574500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "defination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6094691100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "defination.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3015633300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets redirected to dashboard of website",
+            "match": {
+              "location": "defination.user_gets_redirected_to_dashboard_of_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6093751700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Progress section on menu bar",
+            "match": {
+              "location": "defination.user_clicks_on_Progress_section_on_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3025504600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets redirected to Progress section",
+            "match": {
+              "location": "defination.user_gets_redirected_to_Progress_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T07:10:07.074Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7249889600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Automated dropdown",
+        "description": "",
+        "id": "automation-testing-for-e-learning-website;automated-dropdown",
+        "after": [
+          {
+            "result": {
+              "duration": 948335100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3194972500,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User clicks on drop-down",
+            "match": {
+              "location": "defination.user_clicks_on_drop_down()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3199078100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user is able to see his name and email-id",
+            "match": {
+              "location": "defination.user_is_able_to_see_his_name_and_email_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6574165700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User clicks on his name",
+            "match": {
+              "location": "defination.user_clicks_on_his_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3014496600,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "gets redirected to social network page",
+            "match": {
+              "location": "defination.gets_redirected_to_social_network_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136447600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user again clicks on the profile drop-down button",
+            "match": {
+              "location": "defination.user_again_clicks_on_the_profile_drop_down_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4681691000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "gets clicks on Inbox link",
+            "match": {
+              "location": "defination.gets_clicks_on_Inbox_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4207756000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user clicks on My Certificates link",
+            "match": {
+              "location": "defination.user_clicks_on_My_Certificates_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3023116300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user is redirected to certificate page",
+            "match": {
+              "location": "defination.user_is_redirected_to_certificate_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5419708400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user clicks on Logout link",
+            "match": {
+              "location": "defination.user_clicks_on_Logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3016849700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user gets on the homepage",
+            "match": {
+              "location": "defination.user_gets_on_the_homepage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dropdown"
+          }
+        ]
+      }
+    ],
+    "name": "Automation testing for E-learning website",
+    "description": "",
+    "id": "automation-testing-for-e-learning-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature1/signup1.feature",
+    "tags": []
+  }
+]

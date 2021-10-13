@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="356.269909">
+<testcase classname="Automation testing for E-learning website" name="Automation of Progress title functionality" time="32.393702">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User is on Progress section...........................................passed
+Then User should be able to see course title................................passed
+And user should be able to see Course, Time spent in the course,	Progress,	Best score in learning path,	Best score not in learning path	,Latest login,	Details.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation testing for E-learning website" name="Automation on details of My courses" time="30.029229">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User is on Progress section...........................................passed
+Then user is able to see all the details under each title of My Courses.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation testing for E-learning website" name="Automated blue colour arrow" time="35.909215">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User is on Progress section...........................................passed
+When user clicks on the arrow button........................................passed
+Then user is able to see details of the courses below.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation testing for E-learning website" name="Automated course name" time="36.199793">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User is on Progress section...........................................passed
+Then User should be able to see Tests, Attempts,	Best attempt,Ranking,	Best result in course, Statistics.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation testing for E-learning website" name="Automation on testname" time="48.881837">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User is on Progress section...........................................passed
+Then user is able to see test name of subscribed course.....................passed
+And user is also able to click on test name.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation testing for E-learning website" name="Automation on Timeline functionality" time="41.151269">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User is on Progress section...........................................passed
+Then user is able to see Timeline heading...................................passed
+And user is able to see login-time of subscribed courses....................passed
+When user clicks on time, user is able to see message under it..............passed
+Then User should be able to see only one login time.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation testing for E-learning website" name="Verify logo" time="32.436399">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User is on Progress section...........................................passed
+And user is able to see logo of blue color..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation testing for E-learning website" name="Automation on arrow button" time="34.893671">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User is on Progress section...........................................passed
+Then user is able to see arrow button beside the logo.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation testing for E-learning website" name="Automated dropdown" time="64.374794">
+<system-out><![CDATA[When User enters "<username>" and "<password>"..............................passed
+And clicks on login button..................................................passed
+Then User gets redirected to dashboard of website...........................passed
+And user clicks on Progress section on menu bar.............................passed
+Then User gets redirected to Progress section...............................passed
+Given User clicks on drop-down..............................................passed
+When user is able to see his name and email-id..............................passed
+Then User clicks on his name................................................passed
+And gets redirected to social network page..................................passed
+Then user again clicks on the profile drop-down button......................passed
+And gets clicks on Inbox link...............................................passed
+When user clicks on My Certificates link....................................passed
+And user is redirected to certificate page..................................passed
+When user clicks on Logout link.............................................passed
+And user gets on the homepage...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
